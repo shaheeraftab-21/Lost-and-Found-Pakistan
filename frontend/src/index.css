@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Design tokens taken from the original project's CSS. */
+@theme {
+  --color-primary: #1a56db;
+  --color-primary-d: #1341a8;
+  --color-primary-l: #e8f0fd;
+  --color-navy: #0b1f4a;
+  --color-navy2: #162d68;
+  --color-ok: #16a34a;
+  --color-ok-l: #f0fdf4;
+  --color-warn: #d97706;
+  --color-warn-l: #fffbeb;
+  --color-bad: #dc2626;
+  --color-bad-l: #fff0f1;
+  --color-bg: #f4f6fb;
+  --color-line: #dde3f0;
+  --color-line-l: #eef1f8;
+  --color-ink: #111827;
+  --color-ink2: #374151;
+  --color-mute: #6b7280;
+
+  /* admin panel palette */
+  --color-a-bg: #f0f4f8;
+  --color-a-navy: #0b2045;
+  --color-a-blue: #1e5fd4;
+  --color-a-blue-l: #e8f0fd;
+  --color-a-red: #e63946;
+  --color-a-red-l: #fff0f1;
+  --color-a-teal: #0891b2;
+  --color-a-line: #d1dce8;
+  --color-a-line-l: #e8eef5;
+  --color-a-ink: #0f1f3d;
+  --color-a-ink2: #3d5278;
+  --color-a-mute: #6b7fa3;
+
+  --shadow-card: 0 1px 4px rgba(0, 0, 0, 0.08);
+  --shadow-card-md: 0 4px 16px rgba(0, 0, 0, 0.1);
+  --animate-ticker: ticker 28s linear infinite;
+  @keyframes ticker {
+    0% { transform: translateX(100vw); }
+    100% { transform: translateX(-100%); }
+  }
+}
+
+@layer base {
+  body { @apply bg-bg text-sm leading-relaxed text-ink antialiased; }
+  a { @apply no-underline; }
+}
