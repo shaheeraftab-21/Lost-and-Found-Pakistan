@@ -179,3 +179,13 @@ When posting an item, avoid uploading photos that show full ID numbers, card num
 ## License
 
 MIT
+
+## Developer
+
+BS Software Engineering, COMSATS University Islamabad (Lahore Campus).
+
+| Name | Registration No. |
+|---|---|
+| Shaheer Aftab | FA24-BSE-089 |
+
+Maintained by **Shaheer Aftab** · [GitHub](https://github.com/shaheeraftab-21) · [LinkedIn](https://www.linkedin.com/in/shaheeraftab/)
